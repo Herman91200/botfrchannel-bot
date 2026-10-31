@@ -1,0 +1,3 @@
+BOT_TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+CHANNEL_ID = -1001234567890 # ID твоего канала
+PLACE_ID = 1962086868
