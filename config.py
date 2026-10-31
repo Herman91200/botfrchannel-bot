@@ -1,5 +1,5 @@
-BOT_TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+import os
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-
-PLACE_ID = 1962086868
+CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
+PLACE_ID = int(os.getenv("PLACE_ID", "1962086868"))
