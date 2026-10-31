@@ -1,3 +1,5 @@
-BOT_TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
-CHANNEL_ID = -1001234567890 # ID твоего канала
+BOT_TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
 PLACE_ID = 1962086868
